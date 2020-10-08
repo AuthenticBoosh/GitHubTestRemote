@@ -3,7 +3,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		System.out.println("update!");
 		String r = reverse("dog"); // creating a new string named r, assigning it the value of the method reverse with parameter "dog"
 		System.out.println(r); // print the new value of r after the method has reversed the value
 	}
@@ -26,6 +26,7 @@ public class Main {
 		}
 		
 		return reverse;
+		
 		
 	}
 
